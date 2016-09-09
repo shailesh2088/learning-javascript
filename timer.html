@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+ 	<meta charset="utf-8">
+  	<title>Timeout</title>
+  	<script>
+  		window.onload = init;
+  		function init() {
+
+  				 setTimeout(timeHandler,5000);
+  			}
+  		function timeHandler() {
+  			alert("WTF are you doing?????");
+			setTimeout(timeHandler,5000);
+  		}
+  	</script>
+</head>
